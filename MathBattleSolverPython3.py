@@ -1,8 +1,8 @@
 from selenium.webdriver import Chrome
 
-GAME_URL = 'https://tbot.xyz/math/#eyJ1IjoyNDUzzU0NjMsIm4iOiJSY...'
+GAME_URL = 'https://tbot.xyz/math/#eyJ1Ijo4ODk5Njk3MDEsIm4iOiLjhaTjhaRQb3J0Z2FzIEQuIEFjZfCflKUgIiwiZyI6Ik1hdGhCYXR0bGUiLCJjaSI6IjE5MjA2NTk2ODYyODE4OTgzMzUiLCJpIjoiQlFBQUFOTVpBZ0JKRy1xbzQ3azk4X0tHd0Z3In01NGQ1OGUzMDU5MTNhNDI5MTgyNjhkYjUzNjI0NjZkMA'
 WEBDRIVER_PATH = '/home/test/Downloads/chromedriver'
-NUMBER_OF_WINS = 5000
+NUMBER_OF_WINS = 50
 
 browser = Chrome(WEBDRIVER_PATH)
 browser.get(GAME_URL)
